@@ -1,0 +1,47 @@
+body {
+    background-color: ;
+}
+header {
+    background-color: var(--bg-color);
+}
+.menu li {
+    background-color: aliceblue;
+    /* kiri kanannya */
+    float: left;
+    /* jarak nya */
+    padding: 10px;
+    /* style (ini menentukan ada angka (ex=1.,2.,3. atau *.*.*) atau tidak  */
+    list-style: none;
+    display: inline;
+    /* warna */
+    color: red ;
+}
+
+.iniatas{
+    background-color: rgb(171, 250, 114);
+    /* Font */
+    /* Menggunakan font apa */
+    font-family: 'Times New Roman', Times, serif;
+    /* besar font (bisa menggunakan (px=pixel,%)) */
+    font-size: 10px;
+    /* style apakah italic atau yang lain */
+    font-style: italic;
+}
+/* #gambar1{
+    font-size: 5px; */
+/* } */
+#img2 {
+    width: 100px;
+    height: 100px;
+    
+}
+/* menambahkan hover pada button */
+#tombol:hover{
+    transform: scale(1);
+    background-color: aquamarine;
+
+}
+#tombol2:hover{
+    transform: scale(1);
+    background-color: aquamarine;
+}
